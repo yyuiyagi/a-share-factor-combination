@@ -1,0 +1,1362 @@
+[
+  {
+    "batch": 0,
+    "decoded": "NEG(MAX2(MAX2(DELTA5(MEAN20(hl_amp5)),amt_ratio20),turn5))",
+    "mine_ic": 0.04633963108062744,
+    "oos_median": 0.03435816243290901,
+    "tokens": [
+      18,
+      35,
+      32,
+      14,
+      24,
+      13,
+      24,
+      27
+    ]
+  },
+  {
+    "batch": 0,
+    "decoded": "SUB(MEAN20(MEAN20(GATE(imxd20,rsqr20,rsqr20))),turn5)",
+    "mine_ic": 0.04512471333146095,
+    "oos_median": 0.035638291388750076,
+    "tokens": [
+      8,
+      4,
+      4,
+      26,
+      35,
+      35,
+      13,
+      21
+    ]
+  },
+  {
+    "batch": 0,
+    "decoded": "GATE(STD20(imxd20),NEG(corr20),ADD(resid20,imxd20))",
+    "mine_ic": 0.04010333493351936,
+    "oos_median": 0.02407762035727501,
+    "tokens": [
+      8,
+      36,
+      15,
+      27,
+      5,
+      8,
+      20,
+      26
+    ]
+  },
+  {
+    "batch": 0,
+    "decoded": "SUB(SUB(CS_RANK(RANK20(rsqr20)),DELTA5(beta20)),turn5)",
+    "mine_ic": 0.038999881595373154,
+    "oos_median": 0.01829914189875126,
+    "tokens": [
+      4,
+      37,
+      38,
+      3,
+      32,
+      21,
+      13,
+      21
+    ]
+  },
+  {
+    "batch": 0,
+    "decoded": "GATE(imxd20,imxd20,GATE(imxd20,imxd20,NEG(vol20)))",
+    "mine_ic": 0.03727281838655472,
+    "oos_median": 0.03768550232052803,
+    "tokens": [
+      8,
+      8,
+      8,
+      8,
+      9,
+      27,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 0,
+    "decoded": "GATE(imxd20,imxd20,GATE(imxd20,wvma20,NEG(corr20)))",
+    "mine_ic": 0.03546399623155594,
+    "oos_median": 0.017379216849803925,
+    "tokens": [
+      8,
+      8,
+      8,
+      10,
+      15,
+      27,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 0,
+    "decoded": "MUL(turn5,GATE(SIGN(rsi14),NEG(rsi14),amt_ratio20))",
+    "mine_ic": 0.034904517233371735,
+    "oos_median": 0.03135528787970543,
+    "tokens": [
+      13,
+      17,
+      29,
+      17,
+      27,
+      14,
+      26,
+      22
+    ]
+  },
+  {
+    "batch": 0,
+    "decoded": "GATE(turn5,imxd20,GATE(imxd20,imxd20,NEG(imxd20)))",
+    "mine_ic": 0.0330815315246582,
+    "oos_median": 0.020639222115278244,
+    "tokens": [
+      13,
+      8,
+      8,
+      8,
+      8,
+      27,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "MEAN20(GATE(hl_amp5,imxd20,GATE(imxd20,imxd20,rsqr20)))",
+    "mine_ic": 0.035709477961063385,
+    "oos_median": 0.03972870111465454,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      4,
+      26,
+      26,
+      35
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "DIV(imxd20,ABS(MEAN20(GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.016071343794465065,
+    "oos_median": 0.017857395112514496,
+    "tokens": [
+      8,
+      8,
+      8,
+      8,
+      26,
+      35,
+      28,
+      23
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "DIV(imxd20,GATE(imxd20,imxd20,MUL(imxd20,imxd20)))",
+    "mine_ic": 0.01700487919151783,
+    "oos_median": 0.015390027314424515,
+    "tokens": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      22,
+      26,
+      23
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "MEAN20(MEAN20(MAX2(imxd20,GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.01963261142373085,
+    "oos_median": 0.018892982974648476,
+    "tokens": [
+      8,
+      8,
+      8,
+      8,
+      26,
+      24,
+      35,
+      35
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "MEAN20(GATE(imxd20,imxd20,GATE(imxd20,imxd20,rsqr20)))",
+    "mine_ic": 0.02570405974984169,
+    "oos_median": 0.016620367765426636,
+    "tokens": [
+      8,
+      8,
+      8,
+      8,
+      4,
+      26,
+      26,
+      35
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "MEAN20(GATE(imxd20,mom1,GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.018829314038157463,
+    "oos_median": 0.012816496193408966,
+    "tokens": [
+      8,
+      0,
+      8,
+      8,
+      8,
+      26,
+      26,
+      35
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "MEAN20(MEAN20(ADD(wvma20,GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.01464392151683569,
+    "oos_median": 0.008609968237578869,
+    "tokens": [
+      10,
+      8,
+      8,
+      8,
+      26,
+      20,
+      35,
+      35
+    ]
+  },
+  {
+    "batch": 1,
+    "decoded": "GATE(mom20,imxd20,MEAN20(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.029495447874069214,
+    "oos_median": 0.031625404953956604,
+    "tokens": [
+      2,
+      8,
+      8,
+      8,
+      8,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "DIV(max20,MEAN20(GATE(imxd20,imxd20,SIGN(imxd20))))",
+    "mine_ic": 0.009317091666162014,
+    "oos_median": 0.005761905573308468,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      29,
+      26,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "GATE(cord20,imxd20,MEAN20(GATE(imxd20,imxd20,rsi14)))",
+    "mine_ic": 0.028085947036743164,
+    "oos_median": 0.018394580110907555,
+    "tokens": [
+      16,
+      8,
+      8,
+      8,
+      17,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "DIV(max20,MEAN20(MEAN20(GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.007147314492613077,
+    "oos_median": 0.004408104345202446,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      35,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "DIV(max20,MEAN20(DELAY5(GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.007876318879425526,
+    "oos_median": 0.002661727601662278,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      30,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "DIV(max20,MEAN20(MEAN20(GATE(imxd20,imxd20,resid20))))",
+    "mine_ic": 0.005903426092118025,
+    "oos_median": 0.006072486750781536,
+    "tokens": [
+      7,
+      8,
+      8,
+      5,
+      26,
+      35,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "DIV(max20,MEAN20(GATE(imxd20,imxd20,DELAY5(imxd20))))",
+    "mine_ic": 0.0067100925371050835,
+    "oos_median": 0.004700894933193922,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      30,
+      26,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "DIV(max20,MEAN20(GATE(imxd20,imxd20,MEAN5(imxd20))))",
+    "mine_ic": 0.005458487197756767,
+    "oos_median": 0.004796396475285292,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      34,
+      26,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 2,
+    "decoded": "DIV(max20,MEAN20(GATE(imxd20,imxd20,MEAN20(imxd20))))",
+    "mine_ic": 0.005078658927232027,
+    "oos_median": -0.0017673863330855966,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      35,
+      26,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "DIV(max20,GATE(imxd20,imxd20,ADD(imxd20,imxd20)))",
+    "mine_ic": 0.009828667156398296,
+    "oos_median": -0.004486400634050369,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      20,
+      26,
+      23
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "DIV(max20,GATE(max20,imxd20,DIV(imxd20,imxd20)))",
+    "mine_ic": 0.015100655145943165,
+    "oos_median": 0.016098318621516228,
+    "tokens": [
+      7,
+      7,
+      8,
+      8,
+      8,
+      23,
+      26,
+      23
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "GATE(max20,imxd20,MEAN20(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.028515292331576347,
+    "oos_median": 0.02277366630733013,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "DIV(max20,GATE(imxd20,imxd20,DIV(imxd20,imxd20)))",
+    "mine_ic": 0.0011919814860448241,
+    "oos_median": 0.0035974381025880575,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      23,
+      26,
+      23
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "GATE(max20,imxd20,DELTA20(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.020526371896266937,
+    "oos_median": 0.01663839817047119,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      26,
+      33,
+      26
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "GATE(mom1,imxd20,MEAN20(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.028691669926047325,
+    "oos_median": 0.026984717696905136,
+    "tokens": [
+      0,
+      8,
+      8,
+      8,
+      8,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "GATE(max20,imxd20,GATE(imxd20,imxd20,DELAY20(imxd20)))",
+    "mine_ic": 0.020962877199053764,
+    "oos_median": 0.01620689034461975,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      31,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 3,
+    "decoded": "GATE(max20,max20,GATE(imxd20,imxd20,CS_RANK(imxd20)))",
+    "mine_ic": 0.00965844001621008,
+    "oos_median": 0.02368154004216194,
+    "tokens": [
+      7,
+      7,
+      8,
+      8,
+      8,
+      38,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "MEAN5(MUL(max20,MEAN20(GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.008258426561951637,
+    "oos_median": 0.0015981028554961085,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      35,
+      22,
+      34
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "MUL(max20,GATE(imxd20,imxd20,ADD(imxd20,imxd20)))",
+    "mine_ic": 0.00753755122423172,
+    "oos_median": -0.00779664795845747,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      20,
+      26,
+      22
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "GATE(max20,MEAN20(GATE(imxd20,imxd20,imxd20)),rsqr20)",
+    "mine_ic": 0.011340639553964138,
+    "oos_median": 0.00031915761064738035,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      35,
+      4,
+      26
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "GATE(max20,imxd20,CS_RANK(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.028896156698465347,
+    "oos_median": 0.024376755580306053,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      26,
+      38,
+      26
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "CS_RANK(DIV(max20,MEAN20(GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.0037067162338644266,
+    "oos_median": 0.006684756372123957,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      35,
+      23,
+      38
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "GATE(max20,imxd20,DELTA5(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.016645213589072227,
+    "oos_median": 0.017920853570103645,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      26,
+      32,
+      26
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "GATE(max20,MEAN20(GATE(imxd20,imxd20,imxd20)),mom1)",
+    "mine_ic": 0.00824158638715744,
+    "oos_median": -0.0018505931366235018,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      35,
+      0,
+      26
+    ]
+  },
+  {
+    "batch": 4,
+    "decoded": "MIN2(max20,GATE(imxd20,imxd20,SUB(imxd20,imxd20)))",
+    "mine_ic": 0.007020399905741215,
+    "oos_median": 0.009699217975139618,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      21,
+      26,
+      25
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "MEAN5(MEAN20(DIV(max20,GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.007465472910553217,
+    "oos_median": 0.003644263371825218,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      23,
+      35,
+      34
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "GATE(hl_amp5,imxd20,GATE(imxd20,imxd20,STD20(imxd20)))",
+    "mine_ic": 0.028358379378914833,
+    "oos_median": 0.03879636526107788,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      36,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "GATE(hl_amp5,imxd20,MEAN20(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.03248066082596779,
+    "oos_median": 0.03753415122628212,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "MEAN20(DIV(hl_amp5,MEAN20(GATE(imxd20,imxd20,imxd20))))",
+    "mine_ic": 0.004788968712091446,
+    "oos_median": -0.0006295624771155417,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      26,
+      35,
+      23,
+      35
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "MEAN20(GATE(max20,GATE(imxd20,imxd20,imxd20),ret_skew20))",
+    "mine_ic": 0.013149300590157509,
+    "oos_median": 0.008188972249627113,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      12,
+      26,
+      35
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "MIN2(max20,GATE(imxd20,imxd20,MIN2(imxd20,imxd20)))",
+    "mine_ic": 0.023495014756917953,
+    "oos_median": 0.027382679283618927,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      25,
+      26,
+      25
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "GATE(max20,imxd20,GATE(imxd20,imxd20,DELAY5(imxd20)))",
+    "mine_ic": 0.02380848117172718,
+    "oos_median": 0.021096287295222282,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      8,
+      30,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 5,
+    "decoded": "GATE(max20,MEAN20(GATE(imxd20,imxd20,imxd20)),imxd20)",
+    "mine_ic": 0.02235204167664051,
+    "oos_median": 0.027057452127337456,
+    "tokens": [
+      7,
+      8,
+      8,
+      8,
+      26,
+      35,
+      8,
+      26
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "GATE(amt_ratio20,imxd20,GATE(imxd20,imxd20,MEAN20(imxd20)))",
+    "mine_ic": 0.031348418444395065,
+    "oos_median": 0.024541929364204407,
+    "tokens": [
+      14,
+      8,
+      8,
+      8,
+      8,
+      35,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "GATE(hl_amp5,imxd20,MEAN20(GATE(imxd20,imxd20,mom1)))",
+    "mine_ic": 0.033640772104263306,
+    "oos_median": 0.038049712777137756,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      0,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "GATE(hl_amp5,imxd20,GATE(imxd20,imxd20,ABS(imxd20)))",
+    "mine_ic": 0.025482697412371635,
+    "oos_median": 0.03548891469836235,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      28,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "DIV(hl_amp5,GATE(imxd20,imxd20,MEAN20(MEAN20(imxd20))))",
+    "mine_ic": -0.0008265513461083174,
+    "oos_median": -0.011296555399894714,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      35,
+      26,
+      23
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "DIV(hl_amp5,MEAN20(GATE(imxd20,imxd20,MEAN20(imxd20))))",
+    "mine_ic": -0.0018538250587880611,
+    "oos_median": -0.010058602318167686,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      35,
+      23
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "MIN2(hl_amp5,GATE(imxd20,imxd20,ADD(imxd20,imxd20)))",
+    "mine_ic": 0.021204015240073204,
+    "oos_median": 0.02761843428015709,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      20,
+      26,
+      25
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "ADD(hl_amp5,GATE(imxd20,imxd20,MEAN20(MEAN20(imxd20))))",
+    "mine_ic": 0.00847566220909357,
+    "oos_median": -0.008674418553709984,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      35,
+      26,
+      20
+    ]
+  },
+  {
+    "batch": 6,
+    "decoded": "MUL(hl_amp5,MEAN20(GATE(imxd20,imxd20,DELTA5(imxd20))))",
+    "mine_ic": -0.0032704027835279703,
+    "oos_median": -0.009301014244556427,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      32,
+      26,
+      35,
+      22
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "MUL(hl_amp5,GATE(imxd20,imxd20,MIN2(imxd20,imxd20)))",
+    "mine_ic": 0.019747329875826836,
+    "oos_median": 0.011563030071556568,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      25,
+      26,
+      22
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "GATE(hl_amp5,GATE(imxd20,imxd20,MEAN20(imxd20)),rsqr20)",
+    "mine_ic": 0.019500739872455597,
+    "oos_median": 0.013814706355333328,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      4,
+      26
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "GATE(amt_ratio20,imxd20,MEAN20(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.031975433230400085,
+    "oos_median": 0.029790885746479034,
+    "tokens": [
+      14,
+      8,
+      8,
+      8,
+      8,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "GATE(hl_amp5,imxd20,MEAN20(GATE(imxd20,imxd20,beta20)))",
+    "mine_ic": 0.0350591316819191,
+    "oos_median": 0.03514664247632027,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      3,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "GATE(hl_amp5,GATE(imxd20,imxd20,MEAN20(imxd20)),ret_skew20)",
+    "mine_ic": 0.009263185784220695,
+    "oos_median": 0.0009233091841451824,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      12,
+      26
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "GATE(hl_amp5,GATE(imxd20,imxd20,MEAN20(imxd20)),amt_ratio20)",
+    "mine_ic": 0.011153310537338257,
+    "oos_median": 0.004821351729333401,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      14,
+      26
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "CS_ZSCORE(MEAN20(GATE(hl_amp5,imxd20,MUL(imxd20,imxd20))))",
+    "mine_ic": 0.025589963421225548,
+    "oos_median": 0.03923967853188515,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      22,
+      26,
+      35,
+      39
+    ]
+  },
+  {
+    "batch": 7,
+    "decoded": "GATE(hl_amp5,GATE(imxd20,imxd20,MEAN20(imxd20)),beta20)",
+    "mine_ic": 0.011137794703245163,
+    "oos_median": 0.0004663126601371914,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      3,
+      26
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "GATE(hl_amp5,imxd20,GATE(imxd20,imxd20,MEAN20(imxd20)))",
+    "mine_ic": 0.030770044773817062,
+    "oos_median": 0.028974182903766632,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      35,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "MEAN20(GATE(hl_amp5,imxd20,GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.026308730244636536,
+    "oos_median": 0.0280925240367651,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      26,
+      26,
+      35
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "GATE(hl_amp5,imxd20,GATE(imxd20,imxd20,ABS(imxd20)))",
+    "mine_ic": 0.025482697412371635,
+    "oos_median": 0.03548891469836235,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      28,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "DELAY20(MIN2(hl_amp5,GATE(imxd20,imxd20,MEAN20(imxd20))))",
+    "mine_ic": -0.0007568928995169699,
+    "oos_median": -0.01911613717675209,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      25,
+      31
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "MIN2(hl_amp5,GATE(imxd20,imxd20,ADD(imxd20,imxd20)))",
+    "mine_ic": 0.021204015240073204,
+    "oos_median": 0.02761843428015709,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      20,
+      26,
+      25
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "MUL(hl_amp5,CS_ZSCORE(GATE(imxd20,imxd20,MEAN20(imxd20))))",
+    "mine_ic": 0.013462056405842304,
+    "oos_median": 0.013271699659526348,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      39,
+      22
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "DIV(hl_amp5,CS_RANK(GATE(imxd20,imxd20,MEAN20(imxd20))))",
+    "mine_ic": -0.015978896990418434,
+    "oos_median": -0.029090743511915207,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      38,
+      23
+    ]
+  },
+  {
+    "batch": 8,
+    "decoded": "ADD(hl_amp5,GATE(imxd20,imxd20,CS_ZSCORE(MEAN20(imxd20))))",
+    "mine_ic": 0.014518052339553833,
+    "oos_median": -0.005271376576274633,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      39,
+      26,
+      20
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "GATE(turn5,imxd20,GATE(imxd20,imxd20,CS_RANK(imxd20)))",
+    "mine_ic": 0.03640999272465706,
+    "oos_median": 0.030790992081165314,
+    "tokens": [
+      13,
+      8,
+      8,
+      8,
+      8,
+      38,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "GATE(hl_amp5,ret_skew20,GATE(imxd20,imxd20,MEAN20(imxd20)))",
+    "mine_ic": 0.009938152506947517,
+    "oos_median": 0.009392674081027508,
+    "tokens": [
+      18,
+      12,
+      8,
+      8,
+      8,
+      35,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "GATE(mom1,imxd20,MEAN20(GATE(imxd20,imxd20,imxd20)))",
+    "mine_ic": 0.028691669926047325,
+    "oos_median": 0.026984717696905136,
+    "tokens": [
+      0,
+      8,
+      8,
+      8,
+      8,
+      26,
+      35,
+      26
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "GATE(mom1,mom1,GATE(imxd20,imxd20,CS_RANK(imxd20)))",
+    "mine_ic": 0.0016176895005628467,
+    "oos_median": -0.005129828583449125,
+    "tokens": [
+      0,
+      0,
+      8,
+      8,
+      8,
+      38,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "MIN2(hl_amp5,GATE(imxd20,imxd20,MIN2(imxd20,imxd20)))",
+    "mine_ic": 0.01846945472061634,
+    "oos_median": 0.010201429948210716,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      25,
+      26,
+      25
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "ADD(hl_amp5,CS_RANK(GATE(imxd20,imxd20,MEAN20(imxd20))))",
+    "mine_ic": 0.00042503431905061007,
+    "oos_median": -0.026151319965720177,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      35,
+      26,
+      38,
+      20
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "MUL(hl_amp5,RANK20(GATE(imxd20,imxd20,CS_RANK(imxd20))))",
+    "mine_ic": -0.0163174606859684,
+    "oos_median": -0.03298352286219597,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      38,
+      26,
+      37,
+      22
+    ]
+  },
+  {
+    "batch": 9,
+    "decoded": "GATE(hl_amp5,GATE(imxd20,imxd20,CS_RANK(imxd20)),corr20)",
+    "mine_ic": -0.013226696290075779,
+    "oos_median": -0.008082256652414799,
+    "tokens": [
+      18,
+      8,
+      8,
+      8,
+      38,
+      26,
+      15,
+      26
+    ]
+  },
+  {
+    "batch": 10,
+    "decoded": "GATE(mom1,imxd20,GATE(imxd20,imxd20,CS_RANK(imxd20)))",
+    "mine_ic": 0.028598234057426453,
+    "oos_median": 0.02695458009839058,
+    "tokens": [
+      0,
+      8,
+      8,
+      8,
+      8,
+      38,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 10,
+    "decoded": "GATE(mom1,mom1,GATE(imxd20,imxd20,CS_RANK(imxd20)))",
+    "mine_ic": 0.0016176895005628467,
+    "oos_median": -0.005129828583449125,
+    "tokens": [
+      0,
+      0,
+      8,
+      8,
+      8,
+      38,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 11,
+    "decoded": "GATE(vol20,imxd20,GATE(imxd20,imxd20,CS_RANK(imxd20)))",
+    "mine_ic": 0.030467238277196884,
+    "oos_median": 0.03129129484295845,
+    "tokens": [
+      9,
+      8,
+      8,
+      8,
+      8,
+      38,
+      26,
+      26
+    ]
+  },
+  {
+    "batch": 11,
+    "decoded": "GATE(imxd20,GATE(imxd20,imxd20,CS_RANK(imxd20)),rank60)",
+    "mine_ic": 0.0008053523488342762,
+    "oos_median": -0.003304776968434453,
+    "tokens": [
+      8,
+      8,
+      8,
+      8,
+      38,
+      26,
+      6,
+      26
+    ]
+  },
+  {
+    "batch": 11,
+    "decoded": "SIGN(SUB(turn5,GATE(imxd20,imxd20,CS_RANK(imxd20))))",
+    "mine_ic": -0.036591097712516785,
+    "oos_median": -0.02239365503191948,
+    "tokens": [
+      13,
+      8,
+      8,
+      8,
+      38,
+      26,
+      21,
+      29
+    ]
+  }
+]
